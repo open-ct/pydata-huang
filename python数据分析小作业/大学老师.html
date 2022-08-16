@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
+
+</head>
+<body>
+    <div id="1f4f635b96bd40f19e9a13a50f6f7787" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_1f4f635b96bd40f19e9a13a50f6f7787 = echarts.init(
+            document.getElementById('1f4f635b96bd40f19e9a13a50f6f7787'), 'white', {renderer: 'canvas'});
+        var option_1f4f635b96bd40f19e9a13a50f6f7787 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "ip\u6765\u6e90",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "china",
+            "data": [
+                {
+                    "name": "mobi",
+                    "value": 1
+                },
+                {
+                    "name": "\u6c5f\u897f",
+                    "value": 54
+                },
+                {
+                    "name": "\u7518\u8083",
+                    "value": 3
+                },
+                {
+                    "name": "\u5b81\u590f",
+                    "value": 2
+                },
+                {
+                    "name": "\u5e7f\u4e1c",
+                    "value": 14
+                },
+                {
+                    "name": "\u5317\u4eac",
+                    "value": 7
+                },
+                {
+                    "name": "\u4e2d\u56fd",
+                    "value": 2
+                },
+                {
+                    "name": "\u56db\u5ddd",
+                    "value": 1
+                },
+                {
+                    "name": "\u5c71\u4e1c",
+                    "value": 9
+                },
+                {
+                    "name": "\u6cb3\u5317",
+                    "value": 2
+                },
+                {
+                    "name": "\u8d35\u5dde",
+                    "value": 1
+                },
+                {
+                    "name": "\u5b89\u5fbd",
+                    "value": 2
+                },
+                {
+                    "name": "\u6c5f\u82cf",
+                    "value": 1
+                },
+                {
+                    "value": 2
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {}
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "ip\u6765\u6e90"
+            ],
+            "selected": {
+                "ip\u6765\u6e90": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u5927\u5b66\u8001\u5e08ip\u5730\u5740\u6240\u5728\u5730",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    }
+};
+        chart_1f4f635b96bd40f19e9a13a50f6f7787.setOption(option_1f4f635b96bd40f19e9a13a50f6f7787);
+    </script>
+</body>
+</html>
